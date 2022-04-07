@@ -1,13 +1,13 @@
-uuid: 82f0f0a8-e7ba-45eb-bea3-43e6f3813362
+uuid: 8c43c428-ef9d-4a67-a1c8-e0005df4da56
 langcode: en
 status: true
 dependencies:
   theme:
-    - burst_theme
+    - gin
 _core:
-  default_config_hash: ACjBZI5shAMiiUpsz-inLYVXDqNNXRnSzAWV3kV_8Hw
-id: burst_theme_primary_local_tasks
-theme: burst_theme
+  default_config_hash: Hh01DLj9k7UnNdPpOQXHZHW7GHf2OPNDQyCJF7_R9ac
+id: gin_primary_local_tasks
+theme: gin
 region: header
 weight: 0
 provider: null

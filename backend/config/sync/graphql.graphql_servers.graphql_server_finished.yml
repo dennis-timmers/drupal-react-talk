@@ -1,0 +1,20 @@
+uuid: 3e68bc10-5431-4cca-bda7-a4767a2b36f1
+langcode: en
+status: true
+dependencies: {  }
+name: graphql_server_finished
+label: 'GraphQL Server (Finished)'
+endpoint: /graphql/finished
+debug_flag: 3
+schema: composable
+caching: true
+batching: true
+disable_introspection: false
+query_depth: null
+query_complexity: null
+schema_configuration:
+  composable:
+    extensions:
+      graphql_finished: graphql_finished
+      graphql_playground: 0
+persisted_queries_settings: {  }

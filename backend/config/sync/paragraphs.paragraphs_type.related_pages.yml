@@ -1,0 +1,10 @@
+uuid: 63828f0d-22b5-490f-b9d4-0540072df566
+langcode: en
+status: true
+dependencies: {  }
+id: related_pages
+label: 'Related Pages'
+icon_uuid: null
+icon_default: null
+description: 'A related pages paragraph.'
+behavior_plugins: {  }

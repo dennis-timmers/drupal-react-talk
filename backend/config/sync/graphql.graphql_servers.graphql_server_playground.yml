@@ -1,0 +1,18 @@
+uuid: 6a67af47-a66e-4a52-bcff-0205d2128925
+langcode: en
+status: true
+dependencies: {  }
+name: graphql_server_playground
+label: 'GraphQL Server (Playground)'
+endpoint: /graphql/playground
+debug_flag: 3
+schema: composable
+caching: true
+batching: true
+disable_introspection: false
+query_depth: null
+query_complexity: null
+schema_configuration:
+  composable:
+    extensions: {  }
+persisted_queries_settings: {  }

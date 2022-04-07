@@ -2,7 +2,12 @@ uuid: c28f9b91-394b-462d-ae9f-844f9bcafcd2
 langcode: en
 status: true
 dependencies:
+  config:
+    - filter.format.formatted_text
   module:
+    - filter
+    - graphql
+    - media
     - system
 _core:
   default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
@@ -12,3 +17,7 @@ weight: 0
 is_admin: false
 permissions:
   - 'access content'
+  - 'administer graphql configuration'
+  - 'bypass graphql access'
+  - 'use text format formatted_text'
+  - 'view media'

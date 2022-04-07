@@ -1,0 +1,38 @@
+interface Node {
+  id: ID!
+  title: String!
+  path: String!
+}
+
+type Page implements Node {
+  id: ID!
+  title: String!
+  path: String!
+  headerImage: MediaImage!
+  buildingBlocks: [Paragraph!]!
+}
+
+interface Media {
+  id: ID!
+}
+
+type MediaImage {
+  id: ID!
+  src: String!
+  alt: String!
+}
+
+interface Paragraph {
+  id: ID!
+}
+
+type FormattedText implements Paragraph {
+  id: ID!
+  html: String!
+}
+
+type RelatedPages implements Paragraph {
+  id: ID!
+  title: String!
+  references: [Page!]!
+}

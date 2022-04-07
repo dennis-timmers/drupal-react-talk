@@ -1,0 +1,31 @@
+uuid: b8179711-b0e5-4d81-822a-3ea3e4dfe47c
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.formatted_text
+  module:
+    - ckeditor5
+format: formatted_text
+editor: ckeditor5
+settings:
+  toolbar:
+    items:
+      - heading
+      - bold
+      - italic
+      - '|'
+      - blockQuote
+      - '|'
+      - bulletedList
+      - numberedList
+      - link
+  plugins:
+    ckeditor5_heading:
+      enabled_headings:
+        - heading2
+        - heading3
+        - heading4
+        - heading5
+        - heading6
+image_upload: {  }

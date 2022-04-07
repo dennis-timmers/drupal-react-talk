@@ -2,8 +2,8 @@ _core:
   default_config_hash: l58O_yEXSo-SeJi19LXdzTU1tNJG3lmnIhCitRkM1tk
 langcode: en
 uuid: 7e49eb6f-db11-4302-84c0-b09886e277a9
-name: iO
-mail: developers.rotterdam@iodigital.com
+name: Burst
+mail: admin@example.com
 slogan: ''
 page:
   403: ''

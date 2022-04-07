@@ -1,0 +1,7 @@
+name: GraphQL Playground
+description: Adds a GraphQL Playground
+package: GraphQL
+type: module
+core_version_requirement: ^9.0
+dependencies:
+  - graphql

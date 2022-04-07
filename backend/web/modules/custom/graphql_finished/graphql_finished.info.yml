@@ -1,0 +1,7 @@
+name: GraphQL Finished
+description: Adds a GraphQL Finished
+package: GraphQL
+type: module
+core_version_requirement: ^9.0
+dependencies:
+  - graphql

@@ -1,0 +1,19 @@
+enum MenuType {
+  main
+}
+
+type Menu {
+  name: String!
+  items: [MenuItem!]
+}
+
+type MenuItem {
+  label: String!
+  url: Url!
+  description: String
+  items: [MenuItem!]
+}
+
+type Url {
+  path: String
+}

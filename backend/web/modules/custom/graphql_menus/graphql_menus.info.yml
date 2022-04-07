@@ -1,0 +1,10 @@
+name: GraphQL menus
+description: Adds a menu query to GraphQL.
+package: GraphQL
+type: module
+core_version_requirement: ^9.0
+dependencies:
+  - graphql
+  - language
+  - menu_ui
+  - menu_link_content

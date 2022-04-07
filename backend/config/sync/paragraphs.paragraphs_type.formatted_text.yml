@@ -1,0 +1,10 @@
+uuid: 5eadc83c-ccba-4b5b-940e-9aaa8aab0c22
+langcode: en
+status: true
+dependencies: {  }
+id: formatted_text
+label: 'Formatted Text'
+icon_uuid: null
+icon_default: null
+description: 'A formatted text paragraph'
+behavior_plugins: {  }
