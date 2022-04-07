@@ -18,7 +18,7 @@
     "lint:typecheck": "tsc",
     "lint:style": "stylelint \"**/*.css\" --fix",
     "test": "jest",
-    "postinstall": "patch-package && husky install"
+    "postinstall": "patch-package && cd .. && husky install"
   },
   "dependencies": {
     "axios": "^0.21.1",
@@ -76,7 +76,8 @@
   },
   "ts-standard": {
     "ignore": [
-      "coverage"
+      "coverage",
+      "next-env.d.ts"
     ]
   }
 }
