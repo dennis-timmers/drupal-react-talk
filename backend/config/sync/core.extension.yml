@@ -1,0 +1,36 @@
+_core:
+  default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc
+module:
+  admin_toolbar: 0
+  admin_toolbar_links_access_filter: 0
+  admin_toolbar_search: 0
+  admin_toolbar_tools: 0
+  block: 0
+  breakpoint: 0
+  config_filter: 0
+  config_ignore: 0
+  config_safety: 0
+  dblog: 0
+  entity_reference_revisions: 0
+  field: 0
+  field_ui: 0
+  file: 0
+  filter: 0
+  node: 0
+  path: 0
+  path_alias: 0
+  simple_sitemap: 0
+  superadmin: 0
+  system: 0
+  text: 0
+  toolbar: 0
+  user: 0
+  burst_sane_defaults: 1
+  paragraphs: 11
+  burst_distribution: 1000
+theme:
+  claro: 0
+  stable: 0
+  burst_login_theme: 0
+  burst_theme: 0
+profile: burst_distribution

@@ -1,0 +1,22 @@
+uuid: 65c09e77-5d01-4307-84ff-f0328b8c61c4
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - burst_theme
+_core:
+  default_config_hash: '-Ac3ISpIT0PQ-whzD7_dw0SdKi6dAbRFNWdSjOiVDqg'
+id: burst_theme_messages
+theme: burst_theme
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }
