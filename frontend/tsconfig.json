@@ -1,58 +1,20 @@
 {
-  "extends": "./node_modules/@burst/ts-config/tsconfig.json",
   "compilerOptions": {
-    "baseUrl": ".",
-    "paths": {
-      "@api/*": [
-        "api/*"
-      ],
-      "@components/*": [
-        "components/*"
-      ],
-      "@constants/*": [
-        "constants/*"
-      ],
-      "@generated/*": [
-        "generated/*"
-      ],
-      "@pages/*": [
-        "pages/*"
-      ],
-      "@i18n/*": [
-        "i18n/*"
-      ],
-      "@icons/*": [
-        "icons/*"
-      ],
-      "@lib/*": [
-        "lib/*"
-      ],
-      "@misc/*": [
-        "misc/*"
-      ],
-      "@theme/*": [
-        "theme/*"
-      ]
-    },
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
     "resolveJsonModule": true,
-    "esModuleInterop": true
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true
   },
-  "include": [
-    "jest.config.ts",
-    "next-env.d.ts",
-    "constants",
-    "components",
-    "generated",
-    "i18n",
-    "misc",
-    "lib",
-    "pages",
-    "api",
-    "_document.tsx",
-    "types"
-  ],
-  "exclude": [
-    "node_modules",
-    "coverage",
-  ]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
 }
