@@ -57,7 +57,6 @@
         "drupal/gin": "^3.0",
         "drupal/gin_login": "^1.0",
         "drupal/graphql": "^4.2",
-        "drupal/redis": "^1.5",
         "platformsh/config-reader": "^2.4"
     }
 }

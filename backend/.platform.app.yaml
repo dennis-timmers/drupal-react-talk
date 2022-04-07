@@ -8,11 +8,6 @@ dependencies:
     "drush/drush": "^9.0"
     composer/composer: "^2"
 
-runtime:
-  extensions:
-    - redis
-    - newrelic
-
 # The relationships of the application with services or other applications.
 #
 # The left-hand side is the name of the relationship as it will be exposed
@@ -20,7 +15,6 @@ runtime:
 # side is in the form `<service name>:<endpoint name>`.
 relationships:
   database: db:mysql
-  redis: cache:redis
 
 # The configuration of app when it is exposed to the web.
 web:
