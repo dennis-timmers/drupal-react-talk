@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Allow: /api/sitemaps/
+Disallow: /api/
+
+Sitemap: https://www.domain.com/api/sitemaps/cms.xml
+Sitemap: https://www.domain.com/api/sitemaps/static.xml

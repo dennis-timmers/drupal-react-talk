@@ -1,0 +1,54 @@
+include:
+  - project: 'burstdigital/utils/burst-devtools'
+    file: '/ci-templates/project.yml'
+# lint:
+#   before_script:
+#     - npm run build:production:generate
+
+lint:
+  script:
+    - echo "Skipping Burst lint."
+
+lint:standard:
+  stage: test
+  # runs as soon as install deps is finished
+  needs:
+    - install deps
+  dependencies:
+    - install deps
+  script:
+    - npm run lint:standard
+  interruptible: true
+
+lint:style:
+  stage: test
+  # runs as soon as install deps is finished
+  needs:
+    - install deps
+  dependencies:
+    - install deps
+  script:
+    - npm run lint:style
+  interruptible: true
+
+lint:typecheck:
+  stage: test
+  # runs as soon as install deps is finished
+  needs:
+    - install deps
+  dependencies:
+    - install deps
+  script:
+    - npm run lint:typecheck
+  interruptible: true
+
+test:unit:
+  stage: test
+  # runs as soon as install deps is finished
+  needs:
+    - install deps
+  dependencies:
+    - install deps
+  script:
+    - npm run test
+  interruptible: true

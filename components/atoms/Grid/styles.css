@@ -1,0 +1,10 @@
+.grid {
+  --grid-column-count: 6;
+
+  display: grid;
+  grid-template-columns: repeat(var(--grid-column-count), 1fr);
+
+  @media (width >= 1024px) {
+    --grid-column-count: 12;
+  }
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<ruleset name="Auto-generated ruleset for this project by the Burst CLI" namespace="Burst">
+  <config name="installed_paths" value="/usr/local/lib/node_modules/@burst/cli/composer-helper/vendor/wp-coding-standards/wpcs" />
+  <!-- No drupal apps -->
+  <!-- No wordpress apps -->
+  <!-- No magento apps -->
+  <!-- No other apps -->
+</ruleset>

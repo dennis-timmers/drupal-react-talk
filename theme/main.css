@@ -1,0 +1,106 @@
+@import "normalize.css";
+
+:root {
+  /* CSS Variables for the XXX theme */
+
+  /* Colors:
+      Black */
+  --color-black-900: #000;
+
+  /* Red */
+  --color-red-900: #f10;
+
+  /* White */
+  --color-white-100: #fff;
+
+  /* Blue */
+  --color-blue-900: #11f;
+
+  /* Fonts */
+  --font-family-primary: 'avenir-next', serif;
+  --font-family-secondary: 'Roboto', sans-serif;
+
+  /* Spacing (4px steps) */
+  --spacing-1x: 0.4rem;
+  --spacing-2x: 0.8rem;
+  --spacing-3x: 1.2rem;
+  --spacing-4x: 1.6rem;
+  --spacing-5x: 2rem;
+  --spacing-6x: 2.4rem;
+  --spacing-7x: 2.8rem;
+  --spacing-8x: 3.2rem;
+  --spacing-9x: 3.6rem;
+  --spacing-10x: 4rem;
+  --spacing-11x: 4.4rem;
+  --spacing-12x: 4.8rem;
+  --spacing-13x: 5.2rem;
+  --spacing-14x: 5.6rem;
+  --spacing-15x: 6rem;
+  --spacing-16x: 6.4rem;
+  --spacing-17x: 6.8rem;
+  --spacing-18x: 7.2rem;
+  --spacing-19x: 7.6rem;
+  --spacing-20x: 8rem;
+  --spacing-24x: 9.6rem;
+  --spacing-30x: 12rem;
+
+  /* Global variables */
+  --text-color: var(--color-black-900);
+}
+
+/*
+ * Reset box-sizing property
+ */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+/*
+ * Define global typography
+ */
+html {
+  -webkit-font-smoothing: antialiased;
+  font-size: 62.5%;
+}
+
+html,
+body {
+  font-family: var(--font-family-primary);
+  color: var(--text-color);
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+#__next {
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-family-secondary);
+}
+
+/*
+ * Reset top margins on titles that are first childs.
+ */
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child,
+h6:first-child {
+  margin-top: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

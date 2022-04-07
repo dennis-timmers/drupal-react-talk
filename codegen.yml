@@ -1,0 +1,13 @@
+overwrite: true
+schema:
+  - ${WEBSITE_CMS_URL:https://cms.domain.com}/graphql
+documents: '**/*.cms.graphql'
+generates:
+  generated/graphql-request.ts:
+    plugins:
+      - add:
+          content: '/* eslint-disable */'
+      - 'typescript'
+      - 'typescript-operations'
+      - 'typescript-graphql-request'
+      - 'fragment-matcher'
