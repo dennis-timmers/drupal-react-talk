@@ -1,0 +1,34 @@
+name: drupal-react-talk
+recipe: drupal9
+config:
+  php: "8.0"
+  via: nginx
+  webroot: web
+  database: mariadb
+  xdebug: true
+
+env_file:
+  - .env
+
+proxy:
+  appserver_nginx:
+    - cms.drupal-react-talk.localhost
+
+database_service: &database_service
+  type: mariadb:10.4
+  portforward: true
+
+database_creds: &database_creds
+  user: drupal9
+  password: drupal9
+
+services:
+  cache:
+    type: redis:5
+  mailhog:
+    type: mailhog
+  default:
+    <<: *database_service
+    creds:
+      <<: *database_creds
+      database: default
