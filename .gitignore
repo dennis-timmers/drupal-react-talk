@@ -49,3 +49,5 @@ vendor
 /web/sites/example.sites.php
 /web/update.php
 /web/web.config
+
+!/web/sites/default/settings.php
