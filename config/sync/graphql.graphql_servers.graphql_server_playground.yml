@@ -14,5 +14,8 @@ query_depth: null
 query_complexity: null
 schema_configuration:
   composable:
-    extensions: {  }
+    extensions:
+      graphql_menus: graphql_menus
+      graphql_playground: graphql_playground
+      graphql_finished: 0
 persisted_queries_settings: {  }

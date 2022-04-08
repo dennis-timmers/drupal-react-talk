@@ -16,5 +16,5 @@ schema_configuration:
   composable:
     extensions:
       graphql_finished: graphql_finished
-      graphql_playground: 0
+      graphql_menus: graphql_menus
 persisted_queries_settings: {  }
