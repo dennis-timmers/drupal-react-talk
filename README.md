@@ -4,7 +4,7 @@
 2. Clone this repository
 3. Install dependencies with `lando composer install`
 4. Start Lando with `lando start`
-5. Import the database in the root folder with `lando db-import`
+5. Import the database in the root folder with `lando db-import bqa3nqwg4dpcc--main-bvxea6i--db--main--dump.sql.gz`
 6. Clear the cache with `lando drush cr`
 
 You should now be able to navigate to `http://cms.drupal-react-talk.localhost`.
