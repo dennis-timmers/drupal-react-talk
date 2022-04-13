@@ -1,0 +1,7 @@
+name: Menu view access
+description: Adds view access to all menus except admin menus
+package: Menu
+type: module
+core_version_requirement: ^9.0
+dependencies:
+  - menu_ui

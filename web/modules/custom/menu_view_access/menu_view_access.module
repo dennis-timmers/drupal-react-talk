@@ -1,0 +1,7 @@
+<?php
+
+function menu_view_access_entity_type_build(array &$entity_types) {
+  if (isset($entity_types['menu'])) {
+    $entity_types['menu']->setHandlerClass('access', 'Drupal\menu_view_access\Access\ViewMenuAccessControlHandler');
+  }
+}

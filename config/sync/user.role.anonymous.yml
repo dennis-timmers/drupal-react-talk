@@ -17,7 +17,9 @@ weight: 0
 is_admin: false
 permissions:
   - 'access content'
-  - 'administer graphql configuration'
-  - 'bypass graphql access'
+  - 'execute graphql_server_finished arbitrary graphql requests'
+  - 'execute graphql_server_finished persisted graphql requests'
+  - 'execute graphql_server_playground arbitrary graphql requests'
+  - 'execute graphql_server_playground persisted graphql requests'
   - 'use text format formatted_text'
   - 'view media'
