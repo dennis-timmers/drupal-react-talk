@@ -151,7 +151,6 @@ class FinishedSchema extends SdlSchemaExtensionPluginBase
       function ($value) {
         if ($value instanceof Paragraph) {
           return match ($value->bundle()) {
-            'hero' => 'Hero',
             'formatted_text' => 'FormattedText',
             'related_pages' => 'RelatedPages',
           };
@@ -263,7 +262,7 @@ class FinishedSchema extends SdlSchemaExtensionPluginBase
       $builder
         ->produce('entity_reference')
         ->map('entity', $builder->fromParent())
-        ->map('field', $builder->fromValue('field_reference'))
+        ->map('field', $builder->fromValue('field_references'))
         ->map('language', $builder->fromValue($this->getCurrentLanguage())),
     );
   }
